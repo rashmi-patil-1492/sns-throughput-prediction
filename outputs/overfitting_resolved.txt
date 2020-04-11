@@ -1,0 +1,69 @@
+/Users/omkar/miniconda3/envs/SNS/bin/python /Users/omkar/codebase/throughput-prediction/src/train/cnn_lstm_model.py
+Using TensorFlow backend.
+2020-04-11 15:46:14.191470: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-04-11 15:46:14.191917: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 12. Tune using inter_op_parallelism_threads for best performance.
+Train on 9572 samples, validate on 2393 samples
+Epoch 1/25
+ - 16s - loss: 0.0696 - val_loss: 0.0633
+Epoch 2/25
+ - 13s - loss: 0.0626 - val_loss: 0.0554
+Epoch 3/25
+ - 14s - loss: 0.0558 - val_loss: 0.0527
+Epoch 4/25
+ - 14s - loss: 0.0509 - val_loss: 0.0505
+Epoch 5/25
+ - 14s - loss: 0.0490 - val_loss: 0.0470
+Epoch 6/25
+ - 14s - loss: 0.0481 - val_loss: 0.0463
+Epoch 7/25
+ - 14s - loss: 0.0465 - val_loss: 0.0484
+Epoch 8/25
+ - 14s - loss: 0.0457 - val_loss: 0.0438
+Epoch 9/25
+ - 14s - loss: 0.0449 - val_loss: 0.0429
+Epoch 10/25
+ - 14s - loss: 0.0440 - val_loss: 0.0423
+Epoch 11/25
+ - 14s - loss: 0.0436 - val_loss: 0.0446
+Epoch 12/25
+ - 14s - loss: 0.0426 - val_loss: 0.0415
+Epoch 13/25
+ - 14s - loss: 0.0426 - val_loss: 0.0426
+Epoch 14/25
+ - 14s - loss: 0.0418 - val_loss: 0.0414
+Epoch 15/25
+ - 14s - loss: 0.0410 - val_loss: 0.0422
+Epoch 16/25
+ - 14s - loss: 0.0408 - val_loss: 0.0406
+Epoch 17/25
+ - 14s - loss: 0.0408 - val_loss: 0.0403
+Epoch 18/25
+ - 14s - loss: 0.0403 - val_loss: 0.0410
+Epoch 19/25
+ - 14s - loss: 0.0398 - val_loss: 0.0417
+Epoch 20/25
+ - 14s - loss: 0.0395 - val_loss: 0.0410
+Epoch 21/25
+ - 14s - loss: 0.0390 - val_loss: 0.0400
+Epoch 22/25
+ - 14s - loss: 0.0390 - val_loss: 0.0412
+Epoch 23/25
+ - 14s - loss: 0.0391 - val_loss: 0.0413
+Epoch 24/25
+ - 14s - loss: 0.0388 - val_loss: 0.0399
+Epoch 25/25
+ - 14s - loss: 0.0383 - val_loss: 0.0395
+
+  32/2393 [..............................] - ETA: 0s
+ 256/2393 [==>...........................] - ETA: 0s
+ 512/2393 [=====>........................] - ETA: 0s
+ 768/2393 [========>.....................] - ETA: 0s
+1024/2393 [===========>..................] - ETA: 0s
+1248/2393 [==============>...............] - ETA: 0s
+1472/2393 [=================>............] - ETA: 0s
+1728/2393 [====================>.........] - ETA: 0s
+1952/2393 [=======================>......] - ETA: 0s
+2176/2393 [==========================>...] - ETA: 0s
+2393/2393 [==============================] - 1s 224us/step
+['loss'] 0.03948670539910007
