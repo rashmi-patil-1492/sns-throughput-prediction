@@ -4,11 +4,10 @@ SNS Throughput prediction
 
 How to run
 
-1. python predict.py --url bbc.co.uk
+1. python predict.py bbc.co.uk
 
-or
-
-2. python predict.py --ip 151.101.192.81
+eg python predict.py www.google.com
+throughput: 14.08505
 
 Both will give back throughput
 
@@ -21,6 +20,7 @@ conda activate SNS
 conda install -y jupyter
 pip install --exists-action i --upgrade matplotlib
 pip install --exists-action i --upgrade seaborn
+pip install --exists-action i --upgrade h5py
 
 
 For Data analysis and more on model training, I have jupyter notebook "sns-throughput-prediction"
